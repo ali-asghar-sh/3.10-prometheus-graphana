@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = ""               #Update accordingly
-    key    = "<name>.tfstate" #Update accordingly
-    region = ""               #Update accordingly
+    bucket = "sctp-ce10-tfstate"               #Update accordingly
+    key    = "ali-eks.tfstate" #Update accordingly
+    region = "ap-southeast-1"               #Update accordingly
   }
 }
